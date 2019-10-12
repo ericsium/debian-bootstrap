@@ -1,14 +1,8 @@
 #!/bin/sh
-fd=0
-if [ -t "$fd" ]
-then
-  echo interactive
-else
-  echo non-interactive
-fi
-
 set -x
-# bootstrap with: wget -qO- <github_raw_url> | bash
+# bootstrap with: 
+# wget -qO boostrap.sh <github_raw_url>
+# sudo sh bootstrap.sh
 DEBIAN_FRONTEND=noninteractive
 mount -o user /media/cdrom
 if [ $? -ne 0 ]; then
