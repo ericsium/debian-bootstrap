@@ -12,7 +12,7 @@ if [ $? -ne 0 ]; then
 fi
 apt update -y && apt upgrade
 apt install -y dkms linux-headers-$(uname -r) build-essential
-sh ./VBoxLinuxAdditions.run
+sh /media/cdrom/VBoxLinuxAdditions.run
 apt install -y git emacs
 
 #Python dependencies
