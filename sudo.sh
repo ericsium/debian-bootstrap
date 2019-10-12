@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-# bootstrap with: wget -qO- <github_raw_url> | sh
+# bootstrap with: wget -qO- <github_raw_url> | bash
 mount /media/cdrom
 if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
@@ -8,6 +8,7 @@ if [ $? -ne 0 ]; then
 fi
 apt update -y && apt upgrade
 apt install -y dkms linux-headers-$(uname -r) build-essential
+mount /media/cdrom
 sudo bash /media/cdrom/VBoxLinuxAdditions.run
 apt install -y git emacs
 
