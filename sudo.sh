@@ -10,7 +10,7 @@ apt update -y && apt upgrade
 apt install -y dkms linux-headers-$(uname -r) build-essential
 mount /media/cdrom
 sleep 5
-(sudo bash /media/cdrom/VBoxLinuxAdditions.run)
+(cd /media/cdrom; sudo sh ./VBoxLinuxAdditions.run)
 apt install -y git emacs
 
 #Python dependencies
