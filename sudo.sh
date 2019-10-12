@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/bash -x
 # bootstrap with: wget -qO- <github_raw_url> | sh
 mount /media/cdrom
 if [ $? -ne 0 ]; then
