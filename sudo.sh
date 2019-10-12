@@ -1,4 +1,5 @@
 #!/bin/sh
+# bootstrap with: wget -qO- <url>
 mount /media/cdrom
 if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
