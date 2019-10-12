@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 # bootstrap with: wget -qO- <github_raw_url> | bash
-mount /media/cdrom
+mount -o user /media/cdrom
 if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
     exit 1
