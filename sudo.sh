@@ -1,8 +1,10 @@
 #!/bin/sh
-set -x
 # bootstrap with: 
 # wget -qO boostrap.sh https://git.io/Jel5d
 # sudo sh bootstrap.sh
+
+set -x
+
 mount /media/cdrom
 if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
