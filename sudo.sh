@@ -1,7 +1,7 @@
 #!/bin/sh
 set -x
 # bootstrap with: 
-# wget -qO boostrap.sh <github_raw_url>
+# wget -qO boostrap.sh https://git.io/Jel5d
 # sudo sh bootstrap.sh
 DEBIAN_FRONTEND=noninteractive
 mount /media/cdrom
