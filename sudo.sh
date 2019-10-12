@@ -1,6 +1,6 @@
 #!/bin/sh
 # bootstrap with: 
-# wget -qO sudo.sh https://git.io/Jel5d
+# wget -O sudo.sh https://git.io/Jel5d
 # sudo sh sudo.sh
 
 set -x
