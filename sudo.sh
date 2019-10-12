@@ -1,5 +1,5 @@
 #!/bin/sh
-# bootstrap with: wget -qO- <url>
+# bootstrap with: wget -qO- <github_raw_url> | sh
 mount /media/cdrom
 if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
