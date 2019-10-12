@@ -7,4 +7,4 @@ fi
 apt update -y && apt upgrade
 apt install -y dkms linux-headers-$(uname -r) build-essential
 sh /media/cdrom/VBoxLinuxAdditions.run
-apt install -y git emacs curl
+apt install -y git emacs curl zlib1g-dev
