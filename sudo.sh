@@ -8,8 +8,7 @@ if [ $? -ne 0 ]; then
 fi
 apt update -y && apt upgrade
 apt install -y dkms linux-headers-$(uname -r) build-essential
-mount /media/cdrom
-sh /media/cdrom/VBoxLinuxAdditions.run
+bash /media/cdrom/VBoxLinuxAdditions.run
 apt install -y git emacs
 
 #Python dependencies
