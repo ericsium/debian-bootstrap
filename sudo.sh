@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -x
 # bootstrap with: wget -qO- <github_raw_url> | sh
 mount /media/cdrom
