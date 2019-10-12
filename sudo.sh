@@ -1,7 +1,7 @@
 #!/bin/sh
 # bootstrap with: 
-# wget -qO boostrap.sh https://git.io/Jel5d
-# sudo sh bootstrap.sh
+# wget -qO sudo.sh https://git.io/Jel5d
+# sudo sh sudo.sh
 
 set -x
 
