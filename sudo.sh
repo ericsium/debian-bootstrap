@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -x
 # bootstrap with: wget -qO- <github_raw_url> | sh
 mount /media/cdrom
@@ -8,7 +8,7 @@ if [ $? -ne 0 ]; then
 fi
 apt update -y && apt upgrade
 apt install -y dkms linux-headers-$(uname -r) build-essential
-sudo bash /media/cdrom/VBoxLinuxAdditions.run
+sudo sh /media/cdrom/VBoxLinuxAdditions.run
 apt install -y git emacs
 
 #Python dependencies
