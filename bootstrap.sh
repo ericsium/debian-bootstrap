@@ -1,6 +1,6 @@
 #!/bin/sh
 mount /media/cdrom
-if [ $0 -ne 0 ]; then
+if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
     exit 1
 fi
