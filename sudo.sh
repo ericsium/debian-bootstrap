@@ -4,7 +4,7 @@ set -x
 # wget -qO boostrap.sh <github_raw_url>
 # sudo sh bootstrap.sh
 DEBIAN_FRONTEND=noninteractive
-mount -o user /media/cdrom
+mount /media/cdrom
 if [ $? -ne 0 ]; then
     echo "Insert guest additions cd first"
     exit 1
