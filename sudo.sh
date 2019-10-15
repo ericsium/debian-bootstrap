@@ -2,6 +2,8 @@
 # bootstrap with: 
 # wget -O sudo.sh https://git.io/Jel5d
 # sudo sh sudo.sh
+# add users to docker: sudo usermod -aG docker $USER
+# enable sudo for users: /sbin/adduser $USER sudo
 
 set -x
 
