@@ -1,4 +1,8 @@
 #!/bin/sh
+
+# Managing python, virtualenvs and emacs elpy:
+# https://smythp.com/emacs/python/2016/04/27/pyenv-elpy.html
+
 set -x
 git clone https://github.com/ericsium/dotfiles.git
 mv .bashrc .bashrc.old.$$
