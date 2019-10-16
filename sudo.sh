@@ -22,7 +22,7 @@ sh /media/cdrom/VBoxLinuxAdditions.run
 #######################
 # Misc packages
 #######################
-apt install -y git emacs
+apt install -y git emacs meld
 
 #######################
 # Python Dependencies
