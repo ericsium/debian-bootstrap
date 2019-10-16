@@ -17,3 +17,11 @@ pyenv install 3.6.9
 git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
 pyenv virtualenv 3.6.9 global-3.6.9
 pyenv global global-3.6.9
+
+##########################
+# Git config
+##########################
+git config --global diff.tool meld
+git config --global difftool.prompt 0
+git config --global merge.tool meld
+
